@@ -6,6 +6,7 @@ const fs = require("fs");
 const { randomBytes } = require("crypto");
 const { isDeepStrictEqual } = require("util");
 nombre = 1
+nombree = 1
 Client.on("ready", () => {
     console.log("bot opérationnel");
 });
@@ -85,10 +86,10 @@ Client.on("message", message => {
         if(message.channel.id === "812978162857410600"){
             if(message.content.length > 7){
                 joueur_inscrit = message.content.slice(6)
-                bdd["2_joueur_inscrit_" + nombre] = joueur_inscrit
+                bdd["2_joueur_inscrit_" + nombree] = joueur_inscrit
                 Savebdd()
-                message.reply("Vous avez bien inscrit **" + joueur_inscrit + "** dans l'emplacement **" + nombre + "**")
-                nombre = nombre + 1
+                message.reply("Vous avez bien inscrit **" + joueur_inscrit + "** dans l'emplacement **" + nombree + "**")
+                nombree = nombree + 1
             }
         }
     }
