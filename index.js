@@ -55,6 +55,7 @@ Client.on("message", message => {
                     Savebdd()
                 }
                 message.channel.send("●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  GDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
+                nombre = 1
             }
         }
     }
@@ -119,6 +120,7 @@ Client.on("message", message => {
                     Savebdd()
                 }
                 message.channel.send("●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  GDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
+                nombree = 1
             }
         }
     }
