@@ -16,7 +16,13 @@ Client.on("message", message => {
     const args = message.content.split(" ");
     if(message.author.bot) return;
     if(message.channel.type == "dm") return;
-
+    //comande !help pour voir commandes
+    if(message.content.startsWith("!help")){
+        if(message.channel.id === "666337437395583026"){
+            message.channel.send("**COMMANDES POUR LE BOT INSCRIPTIONS-COC**\n\n__!insc [pseudo] : inscrit [pseudo] en gdc__\n*ex : !insc LaGios : @LaGios, Vous avez bien inscrit LaGios dans l'emplacement 1*\n\n__!dinsc [emplacement] : désinscrit le joueur enregistré dans [emplacement] de la gdc__\n*ex : !dinsc 1 : @LaGios, Vous avez bien désinscrit le joueur à l'emplacement 1*\n\n__!listinsc : affiche le tableau des inscrits__\n\n__(admin) !startgdc : lance les inscriptions pour la gdc__\n\n__(admin) !finsc [emplacement] [pseudo] : force l'inscription de [pseudo] dans [emplacement]__\n*ex : !finsc 23 LaGios : @LaGios, Vous avez bien forcé l'inscription de LaGios dans l'emplacement 23*");
+        }
+    }
+        
     //commande !insc pour inscire un compte
     if(message.content.startsWith("!insc")){
         if(message.channel.id === "666337437395583026"){
@@ -81,6 +87,12 @@ Client.on("message", message => {
     const args = message.content.split(" ");
     if(message.author.bot) return;
     if(message.channel.type == "dm") return;
+    //comande !help pour voir commandes
+    if(message.content.startsWith("!help")){
+        if(message.channel.id === "812682677438251038"){
+            message.channel.send("**COMMANDES POUR LE BOT INSCRIPTIONS-COC**\n\n__!insc [pseudo] : inscrit [pseudo] en gdc__\n*ex : !insc LaGios : @LaGios, Vous avez bien inscrit LaGios dans l'emplacement 1*\n\n__!dinsc [emplacement] : désinscrit le joueur enregistré dans [emplacement] de la gdc__\n*ex : !dinsc 1 : @LaGios, Vous avez bien désinscrit le joueur à l'emplacement 1*\n\n__!listinsc : affiche le tableau des inscrits__\n\n__(admin) !startgdc : lance les inscriptions pour la gdc__\n\n__(admin) !finsc [emplacement] [pseudo] : force l'inscription de [pseudo] dans [emplacement]__\n*ex : !finsc 23 LaGios : @LaGios, Vous avez bien forcé l'inscription de LaGios dans l'emplacement 23*");
+        }
+    }
 
     //commande !insc pour inscire un compte
     if(message.content.startsWith("!insc")){
