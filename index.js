@@ -80,6 +80,19 @@ Client.on("message", message => {
             }
         }
     }
+    //commande !startldc pour reinitialiser les variables et relancer les inscriptions
+    if(message.content.startsWith("!startldc")){
+        if(message.channel.id === "691690960848945182"){
+            if(message.member.hasPermission("MANAGE_MESSAGES")){
+                for(let i = 1; i < 36; i++){
+                    bdd["2_joueur_inscrit_" + i] = ""
+                    Savebdd()
+                }
+                message.channel.send("@everyone\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  LDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
+                nombree = 1
+            }
+        }
+    }
 });
 
 
@@ -132,7 +145,7 @@ Client.on("message", message => {
                     bdd["1_joueur_inscrit_" + i] = ""
                     Savebdd()
                 }
-                message.channel.send("●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  GDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
+                message.channel.send("@everyone\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  GDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
                 nombre = 1
             }
         }
@@ -149,6 +162,19 @@ Client.on("message", message => {
                     message.reply("Vous avez bien forcé l'inscription de **" + joueur_inscrit + "** dans l'emplacement **" + nb + "**")
 
                 }
+            }
+        }
+    }
+    //commande !startldc pour reinitialiser les variables et relancer les inscriptions
+    if(message.content.startsWith("!startldc")){
+        if(message.channel.id === "666337437395583026"){
+            if(message.member.hasPermission("MANAGE_MESSAGES")){
+                for(let i = 1; i < 36; i++){
+                    bdd["2_joueur_inscrit_" + i] = ""
+                    Savebdd()
+                }
+                message.channel.send("@everyone\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  LDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
+                nombree = 1
             }
         }
     }
@@ -203,7 +229,7 @@ Client.on("message", message => {
                     bdd["2_joueur_inscrit_" + i] = ""
                     Savebdd()
                 }
-                message.channel.send("●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  GDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
+                message.channel.send("@everyone\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  GDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
                 nombree = 1
             }
         }
@@ -220,6 +246,19 @@ Client.on("message", message => {
                     message.reply("Vous avez bien forcé l'inscription de **" + joueur_inscrit + "** dans l'emplacement **" + nb + "**")
 
                 }
+            }
+        }
+    }
+    //commande !startldc pour reinitialiser les variables et relancer les inscriptions
+    if(message.content.startsWith("!startldc")){
+        if(message.channel.id === "812682677438251038"){
+            if(message.member.hasPermission("MANAGE_MESSAGES")){
+                for(let i = 1; i < 36; i++){
+                    bdd["2_joueur_inscrit_" + i] = ""
+                    Savebdd()
+                }
+                message.channel.send("@everyone\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●\n●▬▬▬▬▬▬●   DEBUT DES   ●▬▬▬▬▬▬●\n●▬▬▬▬▬●INSCRIPTIONS  LDC●▬▬▬▬▬●\n●▬▬▬▬▬▬꧁꧂⪓⪔꧁꧂▬▬▬▬▬▬●")
+                nombree = 1
             }
         }
     }
